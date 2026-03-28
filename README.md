@@ -23,7 +23,15 @@ Tech Stack
 | `POST` | `/users` | Create a new user (JSON body) |
 
 Getting Started
-
 1. **Clone the repo**
+2.Run the server
+   cargo run
+
+Lessons Learned
+The Borrow Checker: Managing shared state without data races.
+
+Extractors: How Actix-web pulls data directly from URL paths and JSON bodies.
+
+Arc & Mutex: Understanding why we need Atomic Reference Counting for multi-threaded access.
    ```bash
    git clone [https://github.com/ManthanN75/Actix_server.git](https://github.com/ManthanN75/Actix_server.git)
