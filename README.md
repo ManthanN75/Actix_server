@@ -1,4 +1,4 @@
-🦀 Actix-Web User API
+ Actix-Web User API
 
 A lightweight, high-performance REST API built with **Rust**. This project serves as a practical dive into Rust's ownership model and thread-safe state management using the Actix-web framework.
 
